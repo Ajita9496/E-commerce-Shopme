@@ -1,0 +1,78 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.contact_container
+{
+    padding: 3.125rem 2.5rem;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f6f6f6;
+    margin-top: 3.125rem;
+
+}
+.contact_container .contant
+{width: 100%;
+    max-width: 30rem;
+    padding: 0.625rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.contact_container .contant h2
+{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #010f1c;
+    font-weight: 200;
+}
+.contact_container .contant .form
+{   width: 100%;
+    padding: 1.25rem 2rem;
+    background: #fff;
+    border-radius: 0.625rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.1875rem 0.5rem;
+}
+.contact_container .contant .form form
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem
+}
+.contact_container .contant .form form input
+{width: 100%;
+    padding: 0.625rem 1.875rem;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 0.0625rem solid #010f1c;
+    max-width: 30.875rem;
+}
+.contact_container .contant .form form textarea
+{width:100%;
+    padding: 0.625rem 1.875rem;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 0.0625rem solid #010f1c;
+    max-width: 30.875rem;
+}
+.contact_container .contant .form form button
+{
+    padding: 0.625rem 1.75rem;
+    border: none;
+    background: #147861;
+    color: #fff;
+    cursor: pointer;
+}

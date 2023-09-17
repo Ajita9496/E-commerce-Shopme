@@ -1,0 +1,166 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+.footer
+{
+    padding: 3.125rem 1.875rem;
+    width: 100%;
+    background: #084137;
+    margin-top: auto;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    bottom: 0;
+    
+
+}
+.footer .container
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.footer .container .about
+{
+    
+    display: flex;
+    min-width: 18.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 2.5rem;
+
+}
+
+.footer .container .about .detail .icon
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    color: #100101;
+}
+.footer .container .about .detail .icon li
+  {display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 2.1875rem;
+    height: 2.1875rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0.1219rem 0.1219rem 0.1625rem;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.footer .container .about .footer-logo{
+    display: flex;
+    flex-direction: row;
+    gap:0.3125rem
+}
+.footer .container .about .footer-logo>img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.footer .container .about .detail .icon li:hover
+{
+    background: #0989ff;
+    color: #fff;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+}
+.footer .container .account
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+.footer .container .account h3
+{
+    font-size: 1.5rem;
+    color: #feffff;
+}
+.footer .container .account ul
+{
+    /* margin-top: 0.625rem; */
+    /* margin-left: 1.25rem; */
+    display: flex;
+    flex-direction: column;
+    gap:0.3125rem;
+}
+.footer .container .account ul li
+{
+    display: flex;
+    flex-direction: column;
+    gap:0.3125rem;
+    color: #010f1c;
+    font-size: 0.875rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.footer .container .account ul li:hover
+{
+    color: #0989ff;
+}
+.footer .container .page
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+}
+.footer .container .page h3
+{
+    font-size: 1.5rem;
+    color: #fcfdfd;
+}
+.footer .container .page ul
+{
+    /* margin-top: 0.625rem;
+    margin-left: 1.25rem; */
+    display: flex;
+    flex-direction: column;
+    gap:0.3125rem;
+}
+.footer .container .page ul li
+{
+    /* margin-top: 0.3125rem; */
+    color: #ffff;
+    font-size: 0.875rem;
+    transition: 0.5s;
+    cursor: pointer;
+    list-style: none;
+}
+.footer .container .account ul li
+{
+    /* margin-top: 0.3125rem; */
+    color: #ffff;
+    font-size: 0.875rem;
+    transition: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+.footer .container .page ul li:hover
+{
+    color: #0989ff;
+}
